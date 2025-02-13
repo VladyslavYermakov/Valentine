@@ -6,6 +6,13 @@
 
 
 
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px; 
+  }
+
+
 h1,h2,h3,h4,p,ul,li,input,button,img,a,h4,h5{
     margin: 0;
     padding: 0;
@@ -19,12 +26,17 @@ h1,h2,h3,h4,p,ul,li,input,button,img,a,h4,h5{
 
 
 @media (max-width: 768px) {
-    body {
-      font-size: 16px;
-    }
     .container {
-      width: 100%;
-      padding: 10px;
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      display: none; 
+    }
+  
+    .menu {
+      flex-direction: column;
+      align-items: center;
     }
   }
 
