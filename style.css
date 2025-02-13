@@ -1,0 +1,113 @@
+:root{
+    --pink: #FF99FF;
+    --red: #FF6666;
+    --black: #000;
+}
+
+
+
+h1,h2,h3,h4,p,ul,li,input,button,img,a,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+
+.scary-body{
+    background-color: #000;
+}
+
+.body{
+    background: url(./img/background.jpeg);
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+}
+
+.cat-happy{
+    margin-left: 400px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.cat{
+    position: absolute;
+    left: 1000px;
+    top: 380px;
+    margin-right: 50px;
+    transition: transform 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 20px;
+}
+
+.scary-cat{
+    margin-left: 500px;
+}
+
+.background{
+    background-image: url(./img/paper.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: 150px;
+    padding-bottom: 100px;
+    padding-top: 160px;
+    border-radius: 40px;
+    margin-top: 200px;
+    margin-right: 600px;
+    margin-left: 600px;
+}
+
+.title{
+    font-family: 'Swanky and Moo Moo';
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-left: 370px;
+}
+
+.list{
+    display: flex;
+    margin-left: 550px;
+    margin-top: 450px;
+
+}
+.list-item1{
+    display: block;
+    margin-right: 30px;
+    font-family: 'Swanky and Moo Moo';
+    letter-spacing: 3px;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 24px;
+    transition: transform 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.list-item2{
+    display: block;
+    font-size: 30px;
+    font-family: 'Swanky and Moo Moo';
+    letter-spacing: 3px;
+    padding: 10px 20px;
+    border-radius: 24px;
+    transition: transform 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.list-item1:hover{
+    transform:  scale(1.2);
+    padding: 10px 20px;
+}
+
+.list-item2:hover{
+    transform:  scale(1.2);
+    padding: 10px 20px;
+}
+
+.text-happy{
+    font-family: 'Swanky and Moo Moo';
+    font-size: 30px;
+    margin-left: 560px;
+    margin-top: 450px;
+}
