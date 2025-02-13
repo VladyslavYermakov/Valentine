@@ -15,6 +15,20 @@ h1,h2,h3,h4,p,ul,li,input,button,img,a,h4,h5{
     background-color: #000;
 }
 
+
+
+
+@media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+
+
 .body{
     background: url(./img/background.jpeg);
     
